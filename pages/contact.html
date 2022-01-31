@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- HEAD -->
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Contact - Aneudis Salcedo</title>
+        <link rel="stylesheet" type="text/css" href="../stylesheet/portfolio.css">
+    </head>
+    
+    <!-- BODY -->
+    <body class="background">
+        <div id="wrapper">
+            <!-- LEFT PANEL -->
+            <div class="leftPanel">
+                <div class="scrollable">
+                    <div class="content">
+                        <!-- HEADER -->
+                        <header>
+                            <a href="../index.html"><h1>Aneudis Salcedo</h1></a>
+                        </header>
+                        <!-- CONTENT-LINKS -->
+                        <nav>
+                            <!-- SITE-LINKS-->
+                            <ul class="siteLinks">
+                                <li id="projects" class="current">
+                                    <a href="../index.html">Projects</a>
+                                </li>
+                                <li id="about">
+                                    <a href="../pages/about.html">About</a>
+                                </li>
+                                <li id="contact">
+                                    <a href="#">Contact</a>
+                                </li>
+                            </ul>
+                            <!-- CONTENT BREAKER -->
+                            <hr>
+                            <!-- PROJECTS-LINKS -->
+                            <ul class="projectsLinks">
+                                <li id="project_01">
+                                    <a class="thumbnail" href="../pages/project_01.html">Signal.</a>
+                                </li>
+                                <li id="project_02">
+                                    <a class="thumbnail" href="#">Limited Spaceship</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <!-- FOOTER -->
+                        <footer id="footer">
+                            <div>
+                                <p>aneudissalcedo &copy; 2022</p>
+                            </div>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+
+            <!-- RIGHT PANEL -->
+            <main role="main">
+                <div class="contact">
+                    <!-- FORM -->
+                    <div class="form">
+                        <h1>Send a Message</h1>
+                        <form id="contactForm" action="/messages" method="POST" class="setup">
+                            <div class="error">
+                                <p class="message"></p>
+                            </div>
+                            <div class="fieldPanel">
+                                <div class="field">
+                                    <label>Enter Name...</label>
+                                    <input type="text" name="name" placeholder="Enter Name...">
+                                    <span class="message"></span>
+                                </div>
+                                <div class="field">
+                                    <label>Enter Email...</label>
+                                    <input type="email" name="email" placeholder="Enter Email...">
+                                    <span class="message"></span>
+                                </div>
+                                <div class="fieldMessage">
+                                    <textarea name="body" class="input" placeholder="Message..."></textarea>
+                                    <i class="message"></i>
+                                </div>
+                                <div>
+                                    <input type="hidden" name="authenticityToken" value="">
+                                    <button type="submit" class="button">Send Message</button>
+                                </div>
+                            </div>
+                            <div class="confirmed">
+                                <p>Your message has been sent.</p>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- CONTACT INFO -->
+                    <div class="details">
+                        <h1>Contact Info</h1>
+                        <div class="col">
+                            <div class="blockRow">
+                                <h5>Email</h5>
+                                <p>
+                                    <a href="mailto:aneudissalcedo@gmail.com">
+                                        aneudissalcedo@gmail.com
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>
+
+
+
+
+
+
