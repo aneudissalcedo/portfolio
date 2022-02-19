@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width">
         <title>Limited Spaceship - Aneudis Salcedo</title>
         <link rel="stylesheet" type="text/css" href="../stylesheet/portfolio.css">
+        <script src="../javascript/portfolio.js" defer></script>
     </head>
     
     <!-- BODY -->
@@ -58,10 +59,23 @@
             <!-- RIGHT PANEL -->
             <main role="main">
                 <!-- PROJECT-IMAGES -->
-                <div class="projectInside">
-                    <!-- IMAGE 1 -->
-                    <div class="imageBox">
-                        <img class="image_01" src="../images/project_02/LimitedSpaceshipGameView01.png" alt="Spaceship">
+                <div id="SlideShow">
+                    <div id="SlideShow_Background">
+                        <div class="projectInside">
+                            <!-- IMAGE 1 -->
+                            <div class="imageBox">
+                                <img class="slideshowImages" src="../images/project_02/LimitedSpaceshipGameView01.png" alt="LimitedSpaceship">
+                            </div>
+                            <!-- PREVIOUS/NEXT BUTTONS -->
+                            <a class="Previous" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="Next" onclick="plusSlides(1)">&#10095;</a>
+                        </div>
+                        <br> <!-- Add space between slideshow images and the dots -->
+                        <!-- SLIDESHOW DOTS -->
+                        <div style="text-align: center;">
+                            <!-- Add exact ammount of dots as of images -->
+                            <span class="dot" onclick="currentSlide(1)"></span>
+                        </div>
                     </div>
                 </div>
                 <!-- PROJECT-DETAILS -->
