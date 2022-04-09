@@ -262,6 +262,10 @@ main a{
     background-image: url("../images/project_02/LimitedSpaceshipGameView01.png");
 }
 
+.project_03{
+    background-image: url("../images/project_03/Background.PNG");
+}
+
 /*=====================
     PROJECT SLIDESHOW
   =====================*/
