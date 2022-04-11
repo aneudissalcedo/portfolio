@@ -80,10 +80,6 @@ nav .siteLinks a{
     opacity: 1;
 }
 
-nav .current a{
-    color: #20a58e;
-}
-
 nav ul li a{
     padding: 0;
     line-height: 17px;

@@ -1,3 +1,11 @@
+// Paths to the corresponding website pages
+var index = "https://aneudissalcedo.github.io/portfolio/index.html";
+var about = "https://aneudissalcedo.github.io/portfolio/pages/about.html";
+var contact = "https://aneudissalcedo.github.io/portfolio/pages/contact.html";
+var project_01 = "https://aneudissalcedo.github.io/portfolio/pages/project_01.html";
+var project_02 = "https://aneudissalcedo.github.io/portfolio/pages/project_02.html";
+var project_03 = "https://aneudissalcedo.github.io/portfolio/pages/project_03.html";
+
 // This function displays the first image in the slideshow when the page loads
 var slideIndex = 1;
 showSlides(slideIndex);
@@ -36,14 +44,50 @@ function showSlides(n)
         dots[i].className = dots[i].className.replace(" active", "");
     }
 
-    // This displays the image in the slideshow
-    slides[slideIndex - 1].style.display = "block";
+    if (window.location.href == project_01
+        || window.location.href == project_02
+        || window.location.href == project_03)
+    {
+        // This displays the image in the slideshow
+        slides[slideIndex - 1].style.display = "block";
 
-    // This adds the active styling to the dot associated with the image
-    dots[slideIndex - 1].className += " active";
+        // This adds the active styling to the dot associated with the image
+        dots[slideIndex - 1].className += " active";
+    }
+
 }
 
+// Highlight the link of the current page
+switch(window.location.href)
+{
+    case index:
+        document.getElementById("highlightLink").style.color = "#20a58e";
+        break;
 
+    case about:
+        document.getElementById("highlightLink").style.color = "#20a58e";
+        break;
+
+    case contact:
+        document.getElementById("highlightLink").style.color = "#20a58e";
+        break;
+
+    case project_01:
+        document.getElementById("highlightLink").style.color = "#20a58e";
+        break;
+
+    case project_02:
+        document.getElementById("highlightLink").style.color = "#20a58e";
+        break;
+
+    case project_03:
+        document.getElementById("highlightLink").style.color = "#20a58e";
+        break;
+
+    default:
+        console.log("Current page not found!");
+        break;
+}
 
 
 
