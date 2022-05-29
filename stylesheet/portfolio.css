@@ -262,6 +262,10 @@ main a{
     background-image: url("../images/project_03/Background.PNG");
 }
 
+.project_04{
+    background-image: url("../images/project_04/MagicalKey.png");
+}
+
 /*=====================
     PROJECT SLIDESHOW
   =====================*/
