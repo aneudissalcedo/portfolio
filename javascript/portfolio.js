@@ -2,6 +2,7 @@
 var project_01 = "https://aneudissalcedo.github.io/portfolio/pages/project_01.html";
 var project_02 = "https://aneudissalcedo.github.io/portfolio/pages/project_02.html";
 var project_03 = "https://aneudissalcedo.github.io/portfolio/pages/project_03.html";
+var project_03 = "https://aneudissalcedo.github.io/portfolio/pages/project_04.html";
 
 // This function displays the first image in the slideshow when the page loads
 var slideIndex = 1;
