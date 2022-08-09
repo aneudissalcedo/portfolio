@@ -2,7 +2,7 @@
 var project_01 = "https://aneudissalcedo.github.io/portfolio/pages/project_01.html";
 var project_02 = "https://aneudissalcedo.github.io/portfolio/pages/project_02.html";
 var project_03 = "https://aneudissalcedo.github.io/portfolio/pages/project_03.html";
-var project_03 = "https://aneudissalcedo.github.io/portfolio/pages/project_04.html";
+var project_04 = "https://aneudissalcedo.github.io/portfolio/pages/project_04.html";
 
 // This function displays the first image in the slideshow when the page loads
 var slideIndex = 1;
@@ -44,7 +44,8 @@ function showSlides(n)
 
     if (window.location.href == project_01
         || window.location.href == project_02
-        || window.location.href == project_03)
+        || window.location.href == project_03
+        || window.location.href == project_04)
     {
         // This displays the image in the slideshow
         slides[slideIndex - 1].style.display = "block";
